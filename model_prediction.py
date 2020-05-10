@@ -40,10 +40,10 @@ df.drop('Hepatitis B', axis=1, inplace=True)  # having so many NaN values
 df['Alcohol'].fillna(0.01, inplace=True)
 
 
-''' correlation is in negative so it reduce our prediction'''
+
 # plt.scatter(df['Adult Mortality'], df['Life expectancy '])
 # plt.show()
-df.drop('Adult Mortality', axis=1, inplace=True)
+
 
 df['Total expenditure'].fillna(0, inplace=True)
 
